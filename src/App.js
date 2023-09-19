@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import HeroImage from "./components/HeroImage";
+import HeroText from "./components/HeroText";
+import backgroundImage from "./assets/bg.png";
 
 function App() {
+  const backgroundStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    height: "100vh",
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={backgroundStyle}>
+      <Navbar></Navbar>
+      <div className="flex justify-center items-center">
+        <HeroText></HeroText>
+        <HeroImage></HeroImage>
+      </div>
     </div>
   );
 }
 
 export default App;
+
