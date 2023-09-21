@@ -11,9 +11,9 @@ function App() {
     height: "100vh",
   };
   return (
-    <div style={backgroundStyle}>
+    <div style={backgroundStyle} className="w-screen">
       <Navbar></Navbar>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center w-screen">
         <HeroText></HeroText>
         <HeroImage></HeroImage>
       </div>

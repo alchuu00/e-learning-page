@@ -1,10 +1,12 @@
-import React from 'react'
-import heroImg from "../assets/hero.png"
+import React from 'react';
+import heroImg from "../assets/hero.png";
 
 const HeroImage = () => {
   return (
-    <img src={heroImg} alt=''></img>
-  )
+    <div className="hidden sm:block">
+      <img src={heroImg} alt='' className="w-full" />
+    </div>
+  );
 }
 
-export default HeroImage
+export default HeroImage;
