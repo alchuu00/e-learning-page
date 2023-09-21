@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('font.css');
+@import url("fonts.css");
+@import url('icons.css');
 
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+.menu-overlay {
+  position: absolute;
+  background: white;
+  z-index: 9999;
+}
+
+.hamburger-icon-container {
+  position: relative;
 }

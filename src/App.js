@@ -8,12 +8,11 @@ function App() {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    height: "100vh",
   };
   return (
-    <div style={backgroundStyle} className="w-screen">
+    <div style={backgroundStyle} className="w-screen h-screen">
       <Navbar></Navbar>
-      <div className="flex justify-center items-center w-screen">
+      <div className="flex justify-center items-center mx-10">
         <HeroText></HeroText>
         <HeroImage></HeroImage>
       </div>
