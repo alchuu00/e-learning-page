@@ -13,10 +13,10 @@ const HeroText = () => {
         <div className="text-purple-900 font-bold">Anywhere.</div>
       </div>
       <div className="flex flex-col gap-3 lg:gap-8 sm:flex-row lg:text-lg font-semibold sm:text-xs">
-        <button className="py-2 px-4 text-blue-400 border-blue-400 border-4 rounded-2xl transition ease-in-out hover:-translate-y-1 drop-shadow-md">
+        <button className="z-1 py-2 px-4 text-blue-400 border-blue-400 border-4 rounded-2xl transition ease-in-out hover:-translate-y-1 drop-shadow-md">
           Read More
         </button>
-        <button className="py-3 px-6 text-white bg-blue-400 rounded-2xl transition ease-in-out hover:-translate-y-1 drop-shadow-md">
+        <button className="z-1 py-3 px-6 text-white bg-blue-400 rounded-2xl transition ease-in-out hover:-translate-y-1 drop-shadow-md">
           7 Day Free Trial
         </button>
       </div>
